@@ -4,6 +4,12 @@ import Propiedades from './components/Propiedades';
 import Contador from './components/Contador';
 import './App.css';
 import RenderizadoElem from './components/RenderizadoElem';
+import {EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
+import ComunicacionComponentes from './components/ComunicacionComponentes';
+import CicloDeVida from './components/CicloDeVida';
+import AjaxApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
+import ScrollHooks from './components/ScrollHooks';
 
 function App() {
   return (
@@ -40,6 +46,22 @@ function App() {
           <Contador></Contador>
           <hr></hr>
           <RenderizadoElem></RenderizadoElem>
+          <hr></hr>
+          <EventosES6/>
+          <hr></hr>
+          <EventosES7/>
+          <hr></hr>
+          <MasSobreEventos/>
+          <hr/>
+          <ComunicacionComponentes/>
+          <hr/>
+          <CicloDeVida/>
+          <hr/>
+          <AjaxApis/>
+          <hr/>
+          <ContadorHooks titulo="Clicks (pasado por props)"/>
+          <hr/>
+          <ScrollHooks/>
         </section>
       </header>
     </div>
