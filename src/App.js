@@ -10,6 +10,9 @@ import CicloDeVida from './components/CicloDeVida';
 import AjaxApis from './components/AjaxApis';
 import ContadorHooks from './components/ContadorHooks';
 import ScrollHooks from './components/ScrollHooks';
+import RelojHooks from './components/RelojHooks';
+//import AjaxHooks from './components/AjaxHooks';
+import HooksPersonalizados from './components/HooksPersonalizados';
 
 function App() {
   return (
@@ -62,6 +65,13 @@ function App() {
           <ContadorHooks titulo="Clicks (pasado por props)"/>
           <hr/>
           <ScrollHooks/>
+          <hr/>
+          <RelojHooks/>
+          <hr/>
+          <h2>Acá irian peticiones Ajax con Hooks</h2>
+          {/* <AjaxHooks/> comentado porque trae cuarentamil cosas y me llena la consola de porqueria*/}
+          <hr/>
+          <HooksPersonalizados />
         </section>
       </header>
     </div>
