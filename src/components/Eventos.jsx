@@ -1,5 +1,5 @@
+import React from 'react'
 import { Component } from "react";
-
 
 export class EventosES6 extends Component{
   constructor(props){

@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'react'
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Contador from './components/Contador';
@@ -13,6 +14,7 @@ import ScrollHooks from './components/ScrollHooks';
 import RelojHooks from './components/RelojHooks';
 //import AjaxHooks from './components/AjaxHooks';
 import HooksPersonalizados from './components/HooksPersonalizados';
+import Referencias from './components/Referencias';
 
 function App() {
   return (
@@ -72,6 +74,8 @@ function App() {
           {/* <AjaxHooks/> comentado porque trae cuarentamil cosas y me llena la consola de porqueria*/}
           <hr/>
           <HooksPersonalizados />
+          <hr/>
+          <Referencias />
         </section>
       </header>
     </div>
