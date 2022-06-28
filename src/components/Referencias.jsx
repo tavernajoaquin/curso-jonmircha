@@ -1,4 +1,4 @@
-import React, { createRef, useRef } from 'react';
+import React, { useRef } from 'react';
 
 export default function Referencias() {
 
@@ -41,15 +41,20 @@ export default function Referencias() {
       <button id="menu-btn" ref={refMenutBtn} onClick={handleToggleMenu}>Menú</button>
       <nav id='menu' ref={refMenu} style={{display:"none"}}>
       <br />
-      <a href="#">Sección 1</a>
+      {/* eslint-disable-next-line */}
+      <a href="#">Sección 1</a> 
       <br />
+      {/* eslint-disable-next-line */}
       <a href="#">Sección 2</a>
       <br />
+      {/* eslint-disable-next-line */}
       <a href="#">Sección 3</a>
       <br />
+      {/* eslint-disable-next-line */}
       <a href="#">Sección 4</a>
       <br />
-      <a href="#">Sección 5</a>
+      {/* eslint-disable-next-line */}
+      <a href="#">Sección 5</a> 
       <br />
       </nav>
     </>
