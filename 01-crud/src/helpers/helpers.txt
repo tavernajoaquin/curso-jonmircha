@@ -1,0 +1,16 @@
+En esta carpeta van a ir las funciones que no pueden ser clasificadas
+como funciones pero no son los suficientemente concretas para serlo.
+
+Un ejemplo de helper es una funcion que de un formato distinto a una fecha.
+en este caso se van a usar para las peticiones asincronicas.
+
+Los helpers van a empezar con "help...".
+
+No se usa un hook personalizado porque estos tienen que usar alguno
+de los Hooks de React.
+
+No usa export default porque eso permite que le puedas cambiar el nombre,
+por eso solo usan export.
+
+La arquitectura REST es la que utiliza los verbos GET, POST, PUT y DELETE.
+(esta basado en el protoclo HTTP).

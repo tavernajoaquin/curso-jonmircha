@@ -1,0 +1,9 @@
+JSON-server crea una base de datos falsa
+se debe crear en una carpeta llamada api y dentro un archivo json que se llame db 
+
+en el package json se añade el siguiente script 
+"fake-api": "json-server --watch src/api/db.json --port 4000"
+fake-api: va a ser el nombre del comando npm con el que se va a correr el servidor
+--watch: todavia no se
+src/api/db.json: ubicacion de la base de datos
+--port 4000: numero de puerto que se va a usar para hostear el servidor
